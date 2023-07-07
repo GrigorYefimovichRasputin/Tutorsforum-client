@@ -1,0 +1,22 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  
+  background : #dcdce6;
+  background-image: url('./assets/Background.png');
+}
+
+
+* > *
+{
+  font-family: 'Poppins', sans-serif;
+}
+
+iframe
+{
+    display: none;
+}
